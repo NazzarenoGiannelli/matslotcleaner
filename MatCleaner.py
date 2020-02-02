@@ -3,7 +3,7 @@ bl_info = {
 'author': 'Nazzareno Giannelli',
 'version': (1, 0),
 'blender': (2, 81, 1),
-'location': 'View3D > Object',
+'location': 'View3D > Object > MatCleaner',
 'description': 'Delete unused materials from all selected meshes at once',
 'wiki_url': '',
 'tracker_url': '',
