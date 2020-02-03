@@ -4,7 +4,7 @@ bl_info = {
 'version': (1, 0),
 'blender': (2, 81, 1),
 'location': 'View3D > Object > MatCleaner',
-'description': 'Delete unused materials from all selected meshes at once',
+'description': 'Remove unused material slots from all selected meshes at once',
 'wiki_url': '',
 'tracker_url': '',
 'category': '3D View'}
@@ -20,7 +20,7 @@ from bpy.types import (
 class OBJECT_OT_matcleaner(Operator):
     bl_label = 'MatCleaner'
     bl_idname = 'object.matcleaner'
-    bl_description = 'Delete unused materials from all selected meshes at once'
+    bl_description = 'Remove unused material slots from all selected meshes at once'
     bl_space_type = 'VIEW_3D'
     bl_region_type= 'UI'
     bl_options = {'REGISTER', 'UNDO'}
