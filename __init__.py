@@ -36,14 +36,14 @@ class OBJECT_OT_matslotcleaner(Operator):
         return {'FINISHED'}
     
 def menu_func(self, context):
-    self.layout.operator(OBJECT_OT_matcleaner.bl_idname)
+    self.layout.operator(OBJECT_OT_matslotcleaner.bl_idname)
     
 def register():
-    bpy.utils.register_class(OBJECT_OT_matcleaner)
+    bpy.utils.register_class(OBJECT_OT_matslotcleaner)
     bpy.types.VIEW3D_MT_object.append(menu_func)
     
 def unregister():
-    bpy.utils.unregister_class(OBJECT_OT_matcleaner)
+    bpy.utils.unregister_class(OBJECT_OT_matslotcleaner)
     bpy.types.VIEW3D_MT_object.remove(menu_func)
     
 if __name__ == '__main__':
