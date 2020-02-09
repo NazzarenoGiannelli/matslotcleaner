@@ -9,4 +9,4 @@ I found it pretty useful in cases were you have to separate an imported fbx into
 
 
 ---
-:globe_with_meridians: For more about what I do you can visit my [personal website](https://www.nazzarenogiannelli.com/)
+:globe_with_meridians: For more about what I do, you can visit my [personal website](https://www.nazzarenogiannelli.com/)
