@@ -1,9 +1,9 @@
 bl_info = {
-'name': 'MatCleaner',
+'name': 'MatSlotCleaner',
 'author': 'Nazzareno Giannelli',
 'version': (1, 0),
 'blender': (2, 81, 1),
-'location': 'View3D > Object > MatCleaner',
+'location': 'View3D > Object > MatSlotCleaner',
 'description': 'Remove unused material slots from all selected meshes at once',
 'wiki_url': '',
 'tracker_url': '',
@@ -17,9 +17,9 @@ from bpy.types import (
     PropertyGroup,
 )
 
-class OBJECT_OT_matcleaner(Operator):
-    bl_label = 'MatCleaner'
-    bl_idname = 'object.matcleaner'
+class OBJECT_OT_matslotcleaner(Operator):
+    bl_label = 'MatSlotCleaner'
+    bl_idname = 'object.matslotcleaner'
     bl_description = 'Remove unused material slots from all selected meshes at once'
     bl_space_type = 'VIEW_3D'
     bl_region_type= 'UI'
