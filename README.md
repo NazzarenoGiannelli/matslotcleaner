@@ -5,7 +5,7 @@ This simple addon is not deleting unused materials from your blend file, but ins
 I found it pretty useful in cases were you have to separate an imported fbx into different pieces. By default all the newly created meshes will inherit all the applied materials of the original fbx, even if the single mesh does not use all of them. With MatSlotCleaner, instead of having to go through each mesh and remove unused slots, you can do it with just one click.
 
 ### Overview video
-<a href="https://youtu.be/oDgSthAjQbw" rel="overview video">![thumbnail](pics/MatSlotCleaner_thumbnail.png)</a>
+<a href="https://youtu.be/oDgSthAjQbw" rel="overview video">![](pics/MatSlotCleaner_thumbnail.jpg)</a>
 
 
 ---
