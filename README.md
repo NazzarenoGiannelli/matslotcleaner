@@ -9,4 +9,6 @@ I found it pretty useful in cases were you have to separate an imported fbx into
 
 
 ---
+If you find the content useful, you could get me a coffee at https://www.buymeacoffee.com/nazzareno ☕🤎
+For more, you can follow me on Twitter, Youtube, and Instagram  🙏
 :globe_with_meridians: For more about what I do, you can visit my [personal website](https://www.nazzarenogiannelli.com/)
