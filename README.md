@@ -15,6 +15,6 @@ Keep in mind that this addon is not deleting unused materials from your blend fi
 ---
 If you find the content useful, you could get me a coffee at https://www.buymeacoffee.com/nazzareno ☕🤎
 
-For more, you can follow me on Twitter, Youtube, and Instagram  🙏
+For more, you can follow me on <a href="https://twitter.com/nazzagnl">Twitter</a>, <a href="http://www.youtube.com/c/NazzarenoGiannelliCG">Youtube</a>, and <a href="https://www.instagram.com/nazzarenogiannelli">Instagram</a>  🙏
 
 :globe_with_meridians: For more about what I do, you can visit my [personal website](https://www.nazzarenogiannelli.com/)
