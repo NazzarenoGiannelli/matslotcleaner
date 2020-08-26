@@ -45,6 +45,3 @@ def register():
 def unregister():
     bpy.utils.unregister_class(OBJECT_OT_matslotcleaner)
     bpy.types.VIEW3D_MT_object.remove(menu_func)
-    
-if __name__ == '__main__':
-    register()
