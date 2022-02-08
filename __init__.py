@@ -1,11 +1,11 @@
 bl_info = {
 'name': 'MatSlotCleaner',
 'author': 'Nazzareno Giannelli',
-'version': (1, 0),
+'version': (1, 1),
 'blender': (2, 81, 1),
 'location': 'View3D > Object > MatSlotCleaner',
 'description': 'Remove unused material slots from all selected meshes at once',
-'wiki_url': '',
+'wiki_url': 'https://nazzarenogiannelli.github.io/',
 'tracker_url': '',
 'category': '3D View'}
 
@@ -29,9 +29,10 @@ class OBJECT_OT_matslotcleaner(Operator):
     def execute(self, context):
         selected = bpy.context.selected_objects
 
-        for s in selected:
-            bpy.context.view_layer.objects.active = s
-            bpy.ops.object.material_slot_remove_unused()
+        for obj in selected:
+            if(obj.type=='MESH'):
+                bpy.context.view_layer.objects.active = obj
+                bpy.ops.object.material_slot_remove_unused()
             
         return {'FINISHED'}
     
