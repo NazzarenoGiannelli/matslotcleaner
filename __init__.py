@@ -5,9 +5,11 @@ bl_info = {
 'blender': (2, 81, 1),
 'location': 'View3D > Object > MatSlotCleaner',
 'description': 'Remove unused material slots from all selected meshes at once',
-'wiki_url': 'https://nazzarenogiannelli.github.io/',
+'wiki_url': '',
 'tracker_url': '',
-'category': '3D View'}
+"support": "COMMUNITY",
+'category': '3D View',
+}
 
 import bpy
 from bpy.types import (
